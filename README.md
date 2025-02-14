@@ -111,4 +111,3 @@ Include the following in your pom.xml file:
         <version>2.20.0</version>
     </dependency>
 </dependencies>
-
