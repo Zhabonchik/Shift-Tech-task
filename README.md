@@ -33,19 +33,19 @@ The `Shift-TZ-1.0-SNAPSHOT-jar-with-dependencies.jar` file is located in the `ta
 ```bash
 java -jar <path_to_jar_file> <parameters>
 
-📥 CLI Parameters
+## 📥 CLI Parameters
 Parameter	Description	Required	Example
 -i / --input=<inputPath>	Path to the input file	✅ Yes	-i=src/resources/input.txt
 -o / --output=<type>	Output type (console or file)	✅ Yes	-o=console
 --path=<outputPath>	Path to the output file (if -o=file)	🚫 No	--path=src/resources/output.txt
 -s / --sort=<criteria>	Sorting criteria (name or salary)	🚫 No	-s=name
 --order=<order>	Sorting order (asc or desc)	🚫 No	--order=asc
-⚠️ Rules
+## ⚠️ Rules
 
     If -o=file is used, --path=<outputPath> must also be set.
     If -s=<criteria> is used, --order=<order> must also be set.
 
-🛠 Example Commands
+## 🛠 Example Commands
 
     Output sorted data to a file:
 
@@ -58,13 +58,13 @@ Output unsorted data to the console:
     Handle invalid parameters:
         All invalid or missing parameters will generate errors and log them in the app.log file.
 
-📝 Logging
+## 📝 Logging
 
     Default Log File: app.log
     Location: Created in the current working directory where the program is executed.
     Contents: Contains details of invalid data, errors, and program execution logs.
 
-⚙️ Technical Details
+## ⚙️ Technical Details
 
     Java Version: 17
     Build Tool: Maven (3.9.6)
@@ -74,7 +74,7 @@ Output unsorted data to the console:
         Lombok 1.18.30 (Boilerplate code reduction)
         Log4j 2.20.0 (Logging)
 
-🔗 Maven Dependencies
+## 🔗 Maven Dependencies
 
 Include the following in your pom.xml file:
 
