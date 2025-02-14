@@ -1,0 +1,28 @@
+2025-02-15 00:16:59 [main] DEBUG org.project.Main - Parsing command line arguments...
+2025-02-15 00:16:59 [main] ERROR org.project.Main - Exception while parsing command line: Missing required option: i
+2025-02-15 00:17:24 [main] DEBUG org.project.Main - Parsing command line arguments...
+2025-02-15 00:17:24 [main] INFO  org.project.Main - Command line arguments parsed: MyCommandLineOptions(inputFile=src/main/resources/input.txt, outputType=console, outputFile=null, sortingType=default, sortingOrder=default)
+2025-02-15 00:17:24 [main] INFO  org.project.Main - Parsing data from input file: src/main/resources/input.txt
+2025-02-15 00:17:24 [main] ERROR org.project.Main - Exception while parsing from file: Salary must be a valid number: abc
+in line: Employee,102,Emily Johnson,abc,1
+2025-02-15 00:17:24 [main] ERROR org.project.Main - Exception while parsing from file: Wrong salary in line:Employee,103,Chris White,-2900,2
+2025-02-15 00:17:24 [main] ERROR org.project.Main - Exception while parsing from file: Salary must be a valid number: 
+in line: Employee,105,Robert Black,,2
+2025-02-15 00:17:24 [main] INFO  org.project.Main - Input file parsing finished. Found 3 managers, 5 employees, 3 invalid data.
+2025-02-15 00:17:24 [main] DEBUG org.project.Main - Data processing...
+2025-02-15 00:17:24 [main] DEBUG org.project.Main - Printing to console...
+2025-02-15 00:17:24 [main] DEBUG org.project.Main - Printing to console finished.
+2025-02-15 00:17:24 [main] INFO  org.project.Main - Finished processing data.
+2025-02-15 00:18:10 [main] DEBUG org.project.Main - Parsing command line arguments...
+2025-02-15 00:18:10 [main] INFO  org.project.Main - Command line arguments parsed: MyCommandLineOptions(inputFile=src/main/resources/input.txt, outputType=file, outputFile=src/main/resources/output.txt, sortingType=salary, sortingOrder=asc)
+2025-02-15 00:18:10 [main] INFO  org.project.Main - Parsing data from input file: src/main/resources/input.txt
+2025-02-15 00:18:10 [main] ERROR org.project.Main - Exception while parsing from file: Salary must be a valid number: abc
+in line: Employee,102,Emily Johnson,abc,1
+2025-02-15 00:18:10 [main] ERROR org.project.Main - Exception while parsing from file: Wrong salary in line:Employee,103,Chris White,-2900,2
+2025-02-15 00:18:10 [main] ERROR org.project.Main - Exception while parsing from file: Salary must be a valid number: 
+in line: Employee,105,Robert Black,,2
+2025-02-15 00:18:10 [main] INFO  org.project.Main - Input file parsing finished. Found 3 managers, 5 employees, 3 invalid data.
+2025-02-15 00:18:10 [main] DEBUG org.project.Main - Data processing...
+2025-02-15 00:18:10 [main] DEBUG org.project.Main - Printing to file...
+2025-02-15 00:18:10 [main] DEBUG org.project.Main - Printing to file finished.
+2025-02-15 00:18:10 [main] INFO  org.project.Main - Finished processing data.
